@@ -12,6 +12,8 @@
 
     <a-scene>
 
+      <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+
       <a-cylinder position="-0.2 0.2 -10 radius="0.5" height="2.0" color="gray" 
       event-set__enter="_event: mouseenter; _target: #nucleus; visible: true"
       event-set__leave="_event: mouseleave; _target: #nucleus; visible: false">
