@@ -19,46 +19,77 @@
       event-set__leave="_event: mouseleave; _target: #nucleus; visible: false">
       ></a-cylinder>
 
-
       <a-text id="nucleus" visible = "false" value="Nucleus: A organelle in most eukaryotic cells (sphere like)." color="black" position="-2.631 1.992 -10.000" scale="1.5 1.5 1.5"></a-text>
 
 
-      <a-cylinder position="7.231 0.2 -2.321 radius="0.5" height="2.0" color="gray"></a-cylinder>
-
-       <a-text value="Nucleolus: A sphere like structure in the nucleus during interphase." color="black" position="5.478 2.220 -2.331" scale="1.5 1.5 1.5"></a-text>
 
 
+      <a-cylinder position="7.231 0.2 -2.321 radius="0.5" height="2.0" color="gray"
+      event-set__enter="_event: mouseenter; _target: #nucleolus; visible: true"
+      event-set__leave="_event: mouseleave; _target: #nucleolus; visible: false">
+      ></a-cylinder>
 
-      <a-cylinder position="2.586 0.279 4.124 radius="0.5" height="2.0" color="gray"></a-cylinder>
-
-       <a-text value="Cell membrane: The semipermeable membrane around the cytoplasm of the cell." color="black" position="0.707 1.955 4.114" scale="1.5 1.5 1.5"></a-text>
-
-
-
-
-      <a-cylinder position="-5.825 0.327 4.752 radius="0.5" height="2.0" color="gray"></a-cylinder>
-
-       <a-text value="Cell wall: A layer of polysaccharides by the outside the plasma membrane of the cells of plants." color="black" position="-7.875 2.147 4.762" scale="1.5 1.5 1.5"></a-text>
+       <a-text id="nucleolus" visible = "false" value="Nucleolus: A sphere like structure in the nucleus during interphase." color="black" position="5.478 2.220 -2.331" scale="1.5 1.5 1.5"></a-text>
 
 
 
 
-      <a-cylinder position="6.158 0.2 -7.654 radius="0.5" height="2.0" color="gray"></a-cylinder>
 
-       <a-text value="Endoplasmic reticulum: Membranous tubules within the cytoplasm of a eukaryotic cell (ribosomes attached)." color="black" position="4.142 1.962 -7.644" scale="1.5 1.5 1.5"></a-text>
+      <a-cylinder position="2.586 0.279 4.124 radius="0.5" height="2.0" color="gray" 
+      event-set__enter="_event: mouseenter; _target: #cellmembrane; visible: true"
+      event-set__leave="_event: mouseleave; _target: #cellmembrane; visible: false">
+      ></a-cylinder>
 
-
-
-
-      <a-cylinder position="-8.156 0.2 -0.786 radius="0.5" height="2.0" color="gray"></a-cylinder>
-
-       <a-text value="Ribsomes: A particle consisting of RNA and associated with proteins." color="black" position="-9.935 2.022 -0.786" scale="1.5 1.5 1.5"></a-text>
+       <a-text id="cellmembrane" visible = "false" value="cellmembrane: The semipermeable membrane around the cytoplasm of the cell." color="black" position="0.707 1.955 4.114" scale="1.5 1.5 1.5"></a-text>
 
 
 
-      <a-cylinder position="-9.862 0.256 -7.654 radius="0.5" height="2.0" color="gray"></a-cylinder>
 
-       <a-text value="Vacuole: A space within the cytoplasm of the cell that contains water and nutrients (fluids inside)." color="black" position="-12.083 2.059 -7.654" scale="1.5 1.5 1.5"></a-text>
+
+
+      <a-cylinder position="-5.825 0.327 4.752 radius="0.5" height="2.0" color="gray" 
+      event-set__enter="_event: mouseenter; _target: #cellwall; visible: true"
+      event-set__leave="_event: mouseleave; _target: #cellwall; visible: false">
+      </a-cylinder>
+
+       <a-text id="cellwall" visible = "false" value="cellwall: A layer of polysaccharides by the outside the plasma membrane of the cells of plants." color="black" position="-7.875 2.147 4.762" scale="1.5 1.5 1.5"></a-text>
+
+
+
+
+
+
+      <a-cylinder position="6.158 0.2 -7.654 radius="0.5" height="2.0" color="gray" 
+      event-set__enter="_event: mouseenter; _target: #Endoplasmic; visible: true"
+      event-set__leave="_event: mouseleave; _target: #Endoplasmic; visible: false">
+      ></a-cylinder>
+
+       <a-text id="Endoplasmic" visible = "false" value="Endoplasmic reticulum: Membranous tubules within the cytoplasm of a eukaryotic cell (ribosomes attached)." color="black" position="4.142 1.962 -7.644" scale="1.5 1.5 1.5"></a-text>
+
+
+
+
+
+
+      <a-cylinder position="-8.156 0.2 -0.786 radius="0.5" height="2.0" color="gray" 
+      event-set__enter="_event: mouseenter; _target: #Ribsomes; visible: true"
+      event-set__leave="_event: mouseleave; _target: #Ribsomes; visible: false">
+      ></a-cylinder>
+
+       <a-text id="Ribsomes" visible = "false" value="Ribsomes: A particle consisting of RNA and associated with proteins." color="black" position="-9.935 2.022 -0.786" scale="1.5 1.5 1.5"></a-text>
+
+
+
+
+
+
+      <a-cylinder position="-9.862 0.256 -7.654 radius="0.5" height="2.0" color="gray" event-set__enter="_event: mouseenter; _target: #Vacuole; visible: true"
+      event-set__leave="_event: mouseleave; _target: #Vacuole; visible: false">
+      ></a-cylinder>
+
+       <a-text id="Vacuole" visible = "false" value="Vacuole: A space within the cytoplasm of the cell that contains water and nutrients (fluids inside)." color="black" position="-12.083 2.059 -7.654" scale="1.5 1.5 1.5"></a-text>
+
+
 
 
 
