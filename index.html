@@ -13,6 +13,9 @@
     <a-scene>
 
 
+      <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+
+
       <a-cylinder position="-0.2 0.2 -10 radius="0.5" height="2.0" color="#C45CDB" 
       event-set__enter="_event: mouseenter; _target: #nucleus; visible: true"
       event-set__leave="_event: mouseleave; _target: #nucleus; visible: false">
@@ -87,9 +90,6 @@
       ></a-cylinder>
 
        <a-text id="Vacuole" visible = "false" value="Vacuole: A space within the cytoplasm of the cell that contains water and nutrients (fluids inside)." color="black" position="-12.083 2.059 -7.654" scale="1.5 1.5 1.5"></a-text>
-
-
-      <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
       
 
        <a-plane color="#E3CB96" height="100" width="100" rotation="-90 0 0"></a-plane>
